@@ -1,0 +1,153 @@
+.container {
+  display: block;
+  width: 50%;
+  margin: 60px auto;
+  text-align: center;
+  box-sizing: border-box;
+  border-color: lightsteelblue;
+  border-width: thin;
+  border-style: solid;
+  border-radius: 20px;
+  padding-bottom: 30px;
+  box-shadow: 10px 10px 10px 10px rgb(193, 209, 230);
+}
+
+form {
+  width: 50%;
+  margin-left: 30%;
+}
+.search-country {
+  margin: 50px auto;
+  padding: 10px;
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  border-width: thin;
+  border-color: rgba(176, 196, 222, 0.603);
+}
+
+.buttonIn {
+  width: 300px;
+  position: relative;
+}
+
+#magnifying-glass {
+  display: inline-block;
+  margin: 50px 5px;
+  position: absolute;
+  border-radius: 10px;
+  outline: none;
+  border-width: thin;
+  height: 30px;
+  cursor: pointer;
+  color: rgba(171, 184, 199, 0.514);
+  border-color: lightsteelblue;
+}
+#magnifying-glass:hover {
+  color: rgba(128, 128, 128, 0.562);
+  transition: ease-in-out 200ms;
+}
+#current-location {
+  display: inline-block;
+  margin: 50px 40px;
+  position: absolute;
+  border-radius: 10px;
+  outline: none;
+  border-width: thin;
+  height: 30px;
+  cursor: pointer;
+  color: rgba(171, 184, 199, 0.514);
+  border-color: lightsteelblue;
+}
+#current-location:hover {
+  color: rgba(128, 128, 128, 0.562);
+  transition: ease-in-out 200ms;
+}
+h1 {
+  font-family: "Lobster", cursive;
+  font-size: 28px;
+  font-weight: lighter;
+}
+.sunny-sunny {
+  display: block;
+  margin: auto;
+  width: 110px;
+  height: 110px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.sunny-sunny img {
+  display: block;
+  margin: auto;
+  width: 110px;
+  height: 110px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+h4 {
+  font-family: roboto;
+  font-size: 18px;
+}
+.singapore {
+  font: size 20px;
+}
+.day-date {
+  font-size: 14px;
+  padding: 10px;
+}
+.day-secondary {
+  font-family: lobster;
+  font-size: 18px;
+}
+.weather-description-secondary {
+  font-family: roboto;
+  font-size: 12px;
+}
+.low-high-secondary {
+  font-family: roboto;
+  font-size: 12px;
+}
+.card {
+  border: none;
+}
+.secondaryweather {
+  padding: 20px 0px 30px 0px;
+  border-color: rgba(176, 196, 222, 0.603);
+  border-width: thin;
+  border-style: solid;
+  border-radius: 20px;
+}
+.secondary-weather-images {
+  display: block;
+  margin: auto;
+  width: 110px;
+  height: 110px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.secondary-weather-images img {
+  width: 100%;
+  height: 100%;
+}
+#primary-weather {
+  border-color: rgba(176, 196, 222, 0.603);
+  border-width: thin;
+  border-style: solid;
+  border-radius: 20px;
+  margin: 20px 200px;
+  padding: 20px 60px 20px 60px;
+  background-color: white;
+}
+#primary-weather:hover {
+  border-color: rgba(176, 196, 222, 0.603);
+  transition: ease-in-out 200ms;
+  border-width: medium;
+}
+li {
+  font-family: roboto;
+  font-size: 12px;
+  list-style: none;
+  margin-right: 30px;
+}
